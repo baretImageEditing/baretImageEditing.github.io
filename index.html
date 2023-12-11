@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="PromptStyler: Prompt-driven Style Generation for Source-free Domain Generalization">
-  <meta name="keywords" content="PromptStyler, Prompt, Style Generation, Domain Generalization, DG, Source-free Domain Generalization, Source-free DG, CLIP, Domain Adaptation, DA">
+        content="BARET : Balanced Attention based Real image Editing driven by Target-text Inversion">
+<!--  <meta name="keywords" content="PromptStyler, Prompt, Style Generation, Domain Generalization, DG, Source-free Domain Generalization, Source-free DG, CLIP, Domain Adaptation, DA">-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PromptStyler</title>
+  <title>BARET</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -33,68 +33,76 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-2 publication-title">PromptStyler: Prompt-driven Style Generation <br> for Source-free Domain Generalization</h1>
-          <p class="is-size-3"; style="color:#808080; margin-top:-25px"> ICCV 2023 </p>
+          <h1 class="title is-2 publication-title">BARET : Balanced Attention based Real image Editing  <br> driven by Target-text Inversion</h1>
+          <p class="is-size-3"; style="color:#808080; margin-top:-25px"> AAAI 2024 </p>
           <!-- <br> -->
           <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <a href="https://jhcho99.github.io/">Junhyeong Cho</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=7PSBLtIAAAAJ&hl=en">Gilhyun Nam</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="http://cvlab.postech.ac.kr/~sungyeon/">Sungyeon Kim</a><sup>2</sup>,</span>
-            <span class="author-block">
-              <a href="https://scholar.google.co.kr/citations?user=mDxJj2AAAAAJ&hl=en">Hunmin Yang</a><sup>1,3</sup>,</span>
-              <span class="author-block">
-              <a href="https://suhakwak.github.io/">Suha Kwak</a><sup>2</sup>
-            </span>
+            <span class="author-block">Yuming Qiao<sup>1,2</sup>,</span>
+            <span class="author-block">Fanyi Wang<sup>1</sup>,</span>
+            <span class="author-block">Jingwen Su<sup>1</sup>,</span>
+            <span class="author-block">Yanhao Zhang<sup>1</sup>,</span>
+            <span class="author-block">Yunjie Yu<sup>1</sup>,</span>
+            <span class="author-block">Siyu Wuo<sup>3</sup>,</span>
+            <span class="author-block">Guo-Jun Qi<sup>1,4</sup>,</span>
+<!--            <span class="author-block">-->
+<!--              <a href="https://jhcho99.github.io/">Yuming Qiao</a><sup>1</sup>,</span>-->
+<!--            <span class="author-block">-->
+<!--              <a href="https://scholar.google.com/citations?user=7PSBLtIAAAAJ&hl=en">Gilhyun Nam</a><sup>1</sup>,</span>-->
+<!--            <span class="author-block">-->
+<!--              <a href="http://cvlab.postech.ac.kr/~sungyeon/">Sungyeon Kim</a><sup>2</sup>,</span>-->
+<!--            <span class="author-block">-->
+<!--              <a href="https://scholar.google.co.kr/citations?user=mDxJj2AAAAAJ&hl=en">Hunmin Yang</a><sup>1,3</sup>,</span>-->
+<!--              <span class="author-block">-->
+<!--              <a href="https://suhakwak.github.io/">Suha Kwak</a><sup>2</sup>-->
+<!--            </span>-->
           </div>
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>ADD,</span>
-            <span class="author-block"><sup>2</sup>POSTECH,</span>
-            <span class="author-block"><sup>3</sup>KAIST</span>
+            <span class="author-block"><sup>1</sup>OPPO Research Institute,</span>
+            <span class="author-block"><sup>2</sup>Tsinghua University,</span>
+            <span class="author-block"><sup>3</sup>Zhejiang University,</span>
+            <span class="author-block"><sup>1</sup>Westlake University</span>
           </div>
-          <div class="column has-text-centered">
-            <div class="publication-links">
-              <!-- PDF Link. -->
-              <span class="link-block">
-                <a href="https://arxiv.org/pdf/2307.15199"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Paper</span>
-                </a>
-              </span>
-              <span class="link-block">
-                <a href="https://arxiv.org/abs/2307.15199"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-              <span class="link-block">
-                <a href="#BibTeX"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-obp"></i>
-                  </span>
-                  <span>BibTex</span>
-                </a>
-              </span>
-              <span class="link-block">
-                <a href="mailto:PromptStyler.official@gmail.com"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-envelope"></i>
-                  </span>
-                  <span>Contact</span>
-                </a>
-              </span>
-            </div>
-          </div>
+<!--          <div class="column has-text-centered">-->
+<!--            <div class="publication-links">-->
+<!--              &lt;!&ndash; PDF Link. &ndash;&gt;-->
+<!--              <span class="link-block">-->
+<!--                <a href="https://arxiv.org/pdf/2307.15199"-->
+<!--                   class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                      <i class="fas fa-file-pdf"></i>-->
+<!--                  </span>-->
+<!--                  <span>Paper</span>-->
+<!--                </a>-->
+<!--              </span>-->
+<!--              <span class="link-block">-->
+<!--                <a href="https://arxiv.org/abs/2307.15199"-->
+<!--                   class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                      <i class="ai ai-arxiv"></i>-->
+<!--                  </span>-->
+<!--                  <span>arXiv</span>-->
+<!--                </a>-->
+<!--              </span>-->
+<!--              <span class="link-block">-->
+<!--                <a href="#BibTeX"-->
+<!--                   class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                      <i class="ai ai-obp"></i>-->
+<!--                  </span>-->
+<!--                  <span>BibTex</span>-->
+<!--                </a>-->
+<!--              </span>-->
+<!--              <span class="link-block">-->
+<!--                <a href="mailto:PromptStyler.official@gmail.com"-->
+<!--                   class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                      <i class="fas fa-envelope"></i>-->
+<!--                  </span>-->
+<!--                  <span>Contact</span>-->
+<!--                </a>-->
+<!--              </span>-->
+<!--            </div>-->
+<!--          </div>-->
         </div>
       </div>
     </div>
@@ -103,15 +111,18 @@
 <section class="hero teaser" style="margin-top:-40px">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="static/images/Teaser.png"  class="center"/>
+      <img src="static/images/first.png"  class="center"/>
+<!--      <embed src="${pageContext.request.contextPath}/admin/indexs/images/resume.pdf" type="application/pdf"  width="800px" height="2400px">-->
+<!--          <iframe src="static/images/FigureFirstshow.pdf" width="100%" height="600px"></iframe>-->
+
     </div>
-    <h2 class="subtitle has-text-centered" style="margin-top:-12px">
-      By leveraging a joint vision-language space, PromptStyler simulates various distribution shifts via learnable words for pseudo-words <b>S</b><sub>*</sub> without using any images to deal with source-free domain generalization.
-      <br><br>
-      <div class="gray-box-custom" style="margin-top:-12px">
-      Thanks to the <a href="https://arxiv.org/abs/2302.04269">cross-modal transferability phenomenon of this joint space</a>, we could train a classifier using text features while running an inference with the classifier using image features.
-      </div>
-    </h2>
+<!--    <h2 class="subtitle has-text-centered" style="margin-top:-12px">-->
+<!--      By leveraging a joint vision-language space, PromptStyler simulates various distribution shifts via learnable words for pseudo-words <b>S</b><sub>*</sub> without using any images to deal with source-free domain generalization.-->
+<!--      <br><br>-->
+<!--      <div class="gray-box-custom" style="margin-top:-12px">-->
+<!--      Thanks to the <a href="https://arxiv.org/abs/2302.04269">cross-modal transferability phenomenon of this joint space</a>, we could train a classifier using text features while running an inference with the classifier using image features.-->
+<!--      </div>-->
+<!--    </h2>-->
   </div>
 </section>
 
@@ -126,16 +137,21 @@
         <h2 class="title is-3" style="margin-top:-5px">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            In a joint vision-language space, a text feature (e.g., from "a photo of a dog") could effectively represent its relevant image features (e.g., from dog photos). Also, a recent study has demonstrated the cross-modal transferability phenomenon of this joint space. From these observations, we propose <b>PromptStyler</b> which simulates various distribution shifts in the joint space by synthesizing diverse styles via prompts without using any images to deal with source-free domain generalization. 
+            Image editing approaches with diffusion models have been rapidly developed, yet their applicability are subject to requirements such as specific editing types (e.g., foreground or background object editing, style transfer), multiple conditions (e.g., mask, sketch, caption), and time consuming fine-tuning of diffusion models. For alleviating these limitations and realizing efficient real image editing, we propose a novel editing technique that only requires an input image and target text for various editing types including non-rigid edits without fine-tuning diffusion model. Our method contains three novelties:
+            (I) Target-text Inversion Schedule (TTIS) is designed to fine-tune the input target text embedding to achieve fast image reconstruction without image caption and acceleration of convergence.
+            (II) Progressive Transition Scheme applies progressive linear interpolation between target text embedding and its fine-tuned version to generate transition embedding for maintaining non-rigid editing capability.
+            (III) Balanced Attention Module (BAM) balances the tradeoff between textual description and image semantics.
+            By the means of combining self-attention map from reconstruction process and cross-attention map from transition process, the guidance of target text embeddings in diffusion process is optimized.
+            In order to demonstrate editing capability, effectiveness and efficiency of the proposed BARET, we have conducted extensive qualitative and quantitative experiments. Moreover, results derived from user study and ablation study further prove the superiority over other methods.
           </p>
-          <p>
-            The proposed method learns to generate a variety of style features (from "a <b>S</b><sub>*</sub> style of a") via learnable style word vectors for pseudo-words <b>S</b><sub>*</sub>. To ensure that learned styles do not distort content information, we force style-content features (from "a <b>S</b><sub>*</sub> style of a [class]") to be located nearby their corresponding content features (from "[class]") in the joint vision-language space. After learning style word vectors, we train a linear classifier using synthesized style-content features.  
-          </p>
-          <p>
-            PromptStyler achieves the state of the art on PACS, VLCS, OfficeHome and DomainNet, even though it does not require any images for training.
-          </p>
+<!--          <p>-->
+<!--              (II) Progressive Transition Scheme applies progressive linear interpolation between target text embedding and its fine-tuned version to generate transition embedding for maintaining non-rigid editing capability.          </p>-->
+<!--          <p>-->
+<!--            PromptStyler achieves the state of the art on PACS, VLCS, OfficeHome and DomainNet, even though it does not require any images for training.-->
+<!--          </p>-->
         </div>
       </div>
+    </div>
     </div>
 </section>
 <br>
